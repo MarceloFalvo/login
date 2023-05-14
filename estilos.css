@@ -1,0 +1,73 @@
+body {
+  background-color: #114283;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.formulario {
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border: 2px solid #000000;
+  padding: 30px;
+  width: 350px;
+}
+
+.formulario h1 {
+  margin-top: 14px;
+  color: #000000;
+  font-size: 30px;
+  text-align: center;
+  text-shadow: 2px 2px 4px #f2ecfa;
+}
+
+input[type="text"],
+input[type="password"] {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #000000;
+  font-size: 16px;
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 100%;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  border-color: #4CAF50;
+}
+
+button[type="submit"] {
+  background-color: #000000;
+  border: none;
+  border-radius: 3px;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 20px;
+  width: 100%;
+}
+
+button[type="submit"]:hover {
+  background-color: #000000;
+}
+
+.mensagem {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.mensagem a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.mensagem a:hover {
+  text-decoration: underline;
+}
