@@ -12,5 +12,5 @@ form.addEventListener('submit', (event) => {
   }
 
   // Substitui a página atual pela página do painel de controle
-  window.location.replace('https://marcelofalvo.github.io/portifolioMMF/');
+  window.location.replace('https://marcelofalvo.github.io/PortifolioMMF/');
 });
